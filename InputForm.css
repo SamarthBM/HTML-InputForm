@@ -1,0 +1,74 @@
+html,
+input {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 10%;
+    margin: 10%;
+}
+
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: tomato;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+div {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+label,
+input,
+button {
+    font-size: 16px;
+    line-height: 2;
+}
+
+label {
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input {
+    flex: auto;
+}
+
+button {
+    background-color: grey;
+    width: 100%
+}
+
+error-output {
+    background-color: red;
+    font-size: 15px;
+    font: italic;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
